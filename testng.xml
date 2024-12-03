@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite configfailurepolicy="continue" name="Suite" parallel="none">
+	<test name="Test" preserve-order="true">
+		<classes>
+			<class name="commonMethods.Testcases" />
+		</classes>
+		<methods>
+			<include name="TS002toTS004_DeficitandSurplusLocationId_TC15to41" priority="2" />
+		</methods>
+	</test>
+</suite>

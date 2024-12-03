@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="commonMethods.Testcases">
+        <methods>
+          <include name="TS_009_Tc067toTc68_ERO_Cost_View"/>
+          <include name="TS_010_Tc069toTc070_ERO_Cost_View"/>
+          <include name="TS_007_Tc061toTc62_ERO_Cost_View"/>
+          <include name="Extentreport"/>
+          <include name="TS_006_Tc060_ERO_Cost_View"/>
+          <include name="TS_011_Tc071_ERO_Cost_View"/>
+          <include name="aftertest"/>
+          <include name="TS_008_Tc063toTc66_ERO_Cost_View"/>
+          <include name="TS_003_Tc037toTc040_ERO_Cost_View"/>
+          <include name="TS_004_Tc041toTc042_ERO_Cost_View"/>
+          <include name="TS_002_Tc016toTc036_ERO_Cost_View"/>
+          <include name="TS_005_Tc043toTc059_ERO_Cost_View"/>
+        </methods>
+      </class> <!-- commonMethods.Testcases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

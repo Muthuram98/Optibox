@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T07:59:04Z" name="Suite" finished-at="2024-11-12T07:59:12Z" duration-ms="7947">
+    <groups>
+    </groups>
+    <test started-at="2024-11-12T07:59:04Z" name="Test" finished-at="2024-11-12T07:59:12Z" duration-ms="7947">
+      <class name="commonMethods.Testcases">
+        <test-method is-config="true" signature="Extentreport()[pri:0, instance:commonMethods.Testcases@4bf80c29]" started-at="2024-11-12T13:29:04Z" name="Extentreport" finished-at="2024-11-12T13:29:04Z" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method signature="ERO_Routing_Scenario33_TC286_328()[pri:0, instance:commonMethods.Testcases@4bf80c29]" started-at="2024-11-12T13:29:04Z" name="ERO_Routing_Scenario33_TC286_328" finished-at="2024-11-12T13:29:12Z" duration-ms="7903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ERO_Routing_Scenario33_TC286_328 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:commonMethods.Testcases@4bf80c29]" started-at="2024-11-12T13:29:12Z" name="aftertest" finished-at="2024-11-12T13:29:12Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- commonMethods.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

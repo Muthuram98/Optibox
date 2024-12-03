@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Mail.CustomTestListener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="commonMethods.Testcases">
+        <methods>
+          <include name="ERO_Routing_Scenario33_TC286_328"/>
+        </methods>
+      </class> <!-- commonMethods.Testcases -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

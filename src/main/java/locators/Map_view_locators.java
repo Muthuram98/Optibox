@@ -1,0 +1,65 @@
+package locators;
+
+public interface Map_view_locators {
+
+	public static String Select_mapview = "Select_mapview>//span[contains(text(),'Map View')]";
+	public static String Map_view_Globalserach = "Map_view_Globalserach>//button[@id='MAV-MAV_btnDeficitSurplusID-MAV_btnDeficitSurplusID']";
+	public static String MapView_cancel = "cancle>//button[@id='MAV-MAV_toolBar-btnTblCancel']";
+	public static String MapView_new = "new>//button[@id='MAV-MAV_toolBar-btnTblNew']";
+	public static String MapView_createnew_confirm = "createnew_confirm>//h2[text()='Map View']/following::button[text()='Yes']";
+	public static String MapView_close_tab = "close>(//label[text()='Map View']/following::a)[3]";
+	public static String MapView_IDField = "IDField>//input[@id='MAV-MAV_txtDeficitSurplusID']";
+	public static String MapView_Verionfield = "Verion field>(//label[contains(text(),'Version :')])[1]";
+	public static String EPQ_group = "EPQ_group>//label[@id='MAV-MAV_lbleqptype']";
+	public static String Map_20DY = "Map_20DY>//a[text()='20DY']";
+	public static String MapView_Question_Icon = "Question Icon>(//h2[text()='Map View']/following::span)[1]";
+	public static String MapView_createnew_confirm_message = "Created new confirm message>//span[text()=' Do you want to create a new MAP']";
+	public static String ANZ_Dropdown = "ANZ_Dropdown>(//li[@id='MAV-MAV_tree-0_0']//span)[2]";
+	public static String Au_Dropdown = "Au_Dropdown>((//li[@id='MAV-MAV_tree-0_0']//span)[2]//following::span)[4]";
+	public static String AUBNE_Option = "AUBNE_Option>(//span[@class='ui-treenode-label ui-corner-all'])[4]";
+	public static String Map_ZoomOut = "ZoomOut>//a[@aria-label='Zoom out']";
+	public static String Map_red = "Map_red>(//div[@id='mapid']//following::div)[9]";
+	public static String Map_location_details = "Map_location_details>//div[@class='leaflet-popup-content-wrapper']";
+	public static String Map_blue = "Map_blue>(//div[@class='leaflet-marker-icon my-div-icon5 leaflet-zoom-animated leaflet-interactive'])[14]";
+	public static String global_screen = "global_screen>//div[@id='nfr_sch_jdlg']";
+	public static String Layers_toggle = "Layers_toggle>//a[@class='leaflet-control-layers-toggle']";
+	public static String Map_20hc = "Map_20hc>//a[text()='20HC']";
+	public static String Map_20HH = "Map_20HH>//a[text()='20HH']";
+	public static String Map_20RF = "Map_20RF>//a[text()='20RF']";
+	public static String Map_surplus = "Map_surplus>//li[text()='Surplus']";
+	public static String Map_deficit = "Map_deficit>//li[text()='Deficit']";
+	public static String Map_neutral = "Map_neutral>//li[text()='Neutral']";
+	public static String Input_Filed = "Input_Filed>//input[@aria-label='ID Filter Input']";
+	public static String Map_All = "Map_All>//li[text()='All']";
+	public static String Map_20Hc = "Map_20Hc>//a[text()='20HC']";
+	public static String Map_pop = "Map_pop>//span[text()=' Do you want to create a new MAP']";
+    public static String surplus_details="surplus_details>(//div[@class='leaflet-marker-icon my-div-icon5 leaflet-zoom-animated leaflet-interactive'])[14]";
+	public static String surplus_count="surplus_count>(//td[text()='Surplus Count']//following::td)[2]";
+	public static String deficit_count="deficit_count>(//td[text()='Deficit Count']//following::td)[2]";
+	public static String Location_val="LOcation>(//td[text()='Location']//following::td)[2]";
+	public static String import_count="Import Count>(//td[text()='Import Count']//following::td)[2]";
+	public static String BenchMarkStock_count="Bench Mark Stock>(//td[text()='Bench Mark Stock']//following::td)[2]";
+	public static String StockStatus_count="Stock Status>(//td[text()='Stock Status']//following::td)[2]";
+	public static String OneWayOutLoad_count="One Way Out Load>(//td[text()='One Way Out Load']//following::td)[2]";
+	public static String OneWayOutreturn_count="One Way Out return>(//td[text()='One Way Out Return']//following::td)[2]";
+	public static String OneWayInLOad_count="One Way In Load>(//td[text()='One Way In Load']//following::td)[2]";
+    public static String  OneWayInTrans="OneWayInTrans>(//td[text()='One Way In Trans']//following::td)[2]";
+    public static String  OneWayInReturn="OneWayInReturn>(//td[text()='One Way In Return']//following::td)[2]";
+    public static String Status_deficit="Status_deficit>(//span[text()='Status'])[1]";
+	public static String locationDeficit="locationDeficit>//div[@col-id='location']//span[@ref='eMenu']";
+	public static String deficit_Location_INput="deficit_Location_INput>(//input[@placeholder='Search...'])[3]";
+	public static String importDeficit="importDeficit>(//div[@col-id='importCnt'])[2]";
+	public static String benchDeficit="benchDeficit>(//div[@col-id='su'])[2]";
+	public static String StockDeficit="StockDeficit>(//div[@col-id='stock'])[2]";
+	public static String onewayoutloadDeficit="onewayoutloadDeficit>(//div[@col-id='onewayoutload'])[2]";
+	public static String onewayoutreturnDeficit="onewayoutreturnDeficit>(//div[@col-id='onewayoutreturn'])[2]";
+	public static String onewayinLoadDeficit="onewayinLoadDeficit>(//div[@col-id='onewaylease'])[2]";
+	public static String onewayInTransDeficit="onewayInTransDeficit>(//div[@col-id='tboh'])[2]";
+	public static String onewayInreturnDeficit="onewayInreturnDeficit>(//div[@col-id='sali'])[2]";
+	public static String Close_2Option="Close_2Option>(//i[@class='fa fa-remove mdlclose'])[2]";
+	public static String deficitDetails="deficitDetails>(//div[@class='leaflet-marker-icon my-div-icon4 leaflet-zoom-animated leaflet-interactive'])[4]";
+	public static String deficitDetails1="deficitDetails>(//div[@class='leaflet-marker-icon my-div-icon4 leaflet-zoom-animated leaflet-interactive'])[5]";
+	public static String surplus_20Hc="(//div[@class='leaflet-marker-icon my-div-icon5 leaflet-zoom-animated leaflet-interactive'])[2]>(//div[@class='leaflet-marker-icon my-div-icon5 leaflet-zoom-animated leaflet-interactive'])[2]";
+	public static String Zoomout_fun="Zoomout_fun>(//div[@class='leaflet-marker-icon my-div-icon4 leaflet-zoom-animated leaflet-interactive'])[2]";
+	
+}
